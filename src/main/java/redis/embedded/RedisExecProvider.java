@@ -28,10 +28,10 @@ public class RedisExecProvider {
         executables.put(OsArchitecture.WINDOWS_x86_64, "redis-server-2.8.19.exe");
 
         executables.put(OsArchitecture.UNIX_x86, "redis-server-2.8.19-32");
-        executables.put(OsArchitecture.UNIX_x86_64, "redis-server-2.8.19");
+        executables.put(OsArchitecture.UNIX_x86_64, "redis-server-5.0.3");
 
-        executables.put(OsArchitecture.MAC_OS_X_x86, "redis-server-2.8.19.app");
-        executables.put(OsArchitecture.MAC_OS_X_x86_64, "redis-server-2.8.19.app");
+        executables.put(OsArchitecture.MAC_OS_X_x86, "redis-server-5.0.3.app");
+        executables.put(OsArchitecture.MAC_OS_X_x86_64, "redis-server-5.0.3.app");
     }
 
     public RedisExecProvider override(OS os, String executable) {

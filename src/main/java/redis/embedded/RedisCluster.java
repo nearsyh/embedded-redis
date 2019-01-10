@@ -33,10 +33,10 @@ public class RedisCluster implements Redis {
 
     @Override
     public void start() throws EmbeddedRedisException {
-        for(Redis redis : sentinels) {
+        for(Redis redis : servers) {
             redis.start();
         }
-        for(Redis redis : servers) {
+        for(Redis redis : sentinels) {
             redis.start();
         }
     }
