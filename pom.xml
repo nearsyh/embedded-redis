@@ -4,7 +4,7 @@
     <groupId>com.github.nearsyh</groupId>
     <artifactId>embedded-redis</artifactId>
     <packaging>jar</packaging>
-    <version>0.8</version>
+    <version>0.9-SNAPSHOT</version>
     <name>embedded-redis</name>
     <description>Redis embedded server for Java integration testing</description>
     <url>https://github.com/nearsyh/embedded-redis</url>
